@@ -1,0 +1,53 @@
+body{
+    background-color: #FBE4D8;
+}
+/* #DFB6B2 secciones alternas-para separar secciones*/
+header{
+    background-color:#190019;
+}
+.links{
+    color: #FBE4D8;
+    text-decoration: none;
+}
+.titulo{
+    color: #190019;
+}
+.subtitulo{
+    color: #2B124C;
+}
+.texto{
+    color: #522B5B;
+}
+
+
+.circulo1,
+.circulo2,
+.circulo3{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  
+}
+.circulo1{
+    background-color: #854F6C;
+}
+.circulo2{
+    background-color: #522B5B;
+}
+.circulo3{
+    background-color: #2B124C;
+}
+
+footer{
+    background-color: #2B124C;
+    text-align: center;
+    padding: 20px;
+    color: #FBE4D8;
+    border-top: 2px solid #ddd;
+}
