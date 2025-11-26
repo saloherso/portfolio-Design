@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <header>
-        <nav class="nav-links">
+
+        <button class="menu-btn" id="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="nav-links">
         <ul>
             <li> <a href="" >CV</a> </li>
             <li> <a href="" >Proyectos</a>  </li>
@@ -54,7 +62,7 @@
     </main>
     
     <footer>
-         <a href=""> Telefono +57 322 4851035 </a>
+         <p> Telefono +57 322 4851035 </p>
          <a href=""> Email: sarahernandezsotelo@gmial.com</a> 
          <a href=""> Descargar CV </a>
         <a href=""> Github</a> 
@@ -62,7 +70,15 @@
         
     </footer>
 
-    
+    <script>
+    const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("nav-links");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("activar");
+    });
+</script>
+
 
 </body>
 </html>
