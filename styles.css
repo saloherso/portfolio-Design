@@ -57,12 +57,7 @@ main{
     width: 100%;
 }
 
-/*
-.contenedor-secundario (para animacion de mi){
-    margin-right: auto;
-    padding: 20px;
-}
-*/
+
 
 .titulo{
     color: black;
@@ -74,6 +69,7 @@ main{
 .texto{
     color: #292929;
 }
+
 
 
 
@@ -120,14 +116,18 @@ text-decoration: none;}
 AMARILLO - D1D067 (colores que podria usar- salen)
 */
 .circulo1{
-    background-color: #B9C7F8;
+    background-color: #7B57CE
 }
 .circulo2{
-    background-color: #7B57CE;
+    background-color: #B9C7F8;
 }
 .circulo3{
     background-color: #DBC583
 }
+
+
+
+
 
 .circulos{
     display: flex;
@@ -141,6 +141,11 @@ AMARILLO - D1D067 (colores que podria usar- salen)
     text-decoration: none;
 
     
+}
+
+dotlottie-wc{
+    width: 190px;
+    height: 100px;
 }
 
 footer{
@@ -277,6 +282,7 @@ footer a:hover{
         max-width: 600px;
         margin: 20px auto;
     }
+
 
     .circulo1, .circulo2, .circulo3 {
         width: 260px;

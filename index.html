@@ -4,84 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="">
-</head>
-<body>
-    <header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <header>
 
-        <button class="menu-btn" id="menu-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+            <button class="menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-        <nav class="nav-links" id="nav-links">
-        <ul>
-            <li> <a href="" >CV</a> </li>
-            <li> <a href="" >Proyectos</a>  </li>
-            <li> <a href="" > Contacto</a>  </li>
-        </ul>
-        </nav>
-    </header>
+            <nav class="nav-links" id="nav-links">
+            <ul>
+                <li> <a href="" >CV</a> </li>
+                <li> <a href="" >Proyectos</a>  </li>
+                <li> <a href="" > Contacto</a>  </li>
+            </ul>
+            </nav>
+        </header>
 
-    <main>
-        <div class="contenedor-principal">
-            <h1 class="titulo">Hola soy Sara Hernandez </h1>
-            <h3 class="subtitulo">Desarrolladora frontend</h3>
-            <h4 class="subtitulo">Un poco sobre mi</h4>
-            <p class="texto">Desarrolladora web orientada a resultados que crea y gestiona sitios web.
-            Me dedico a la creación y gestión del frontend lo que contribuye al éxito del producto final.
-            transformando ideas en productos.</p>
+        <main>
+            <div class="contenedor-principal">
+                <h1 class="titulo">Hola soy Sara Hernandez </h1>
+                <h3 class="subtitulo">Desarrolladora frontend</h3>
+                <h4 class="subtitulo">Un poco sobre mi</h4>
+                <p class="texto">Desarrolladora web orientada a resultados que crea y gestiona sitios web.
+                Me dedico a la creación y gestión del frontend lo que contribuye al éxito del producto final.
+                transformando ideas en productos.</p>
 
-            <div class="circulos">
+                <div class="circulos">
 
-            <div class="circulo1"> 
-                <a href=""> CV</a> 
-            </div>
+    
 
-            <div class="circulo2"> 
-               <a href=""> PROYECTOS</a> 
-             </div>
+                <div class="circulo1"> 
+                    <a href=""> </a> 
+                     <dotlottie-wc
+  src="https://lottie.host/caaa2d7d-6312-41b5-9aab-665f8ef9ef8c/qOFA9CGsXD.lottie"
+  
+  autoplay
+  loop
+></dotlottie-wc>
+                    
+                </div>
+     
 
-            <div class="circulo3">
-                <a href=""> CONTACTO</a> 
-            </div>
-            </div>
+                <div class="circulo2"> 
+                   <a href=""> </a> 
+                   <dotlottie-wc src="https://lottie.host/36235782-75bd-4979-9c96-d2fc8347b95a/0Mpsj0wcMH.lottie" autoplay loop></dotlottie-wc>
+                    
+                  
+                 </div>
+
+                <div class="circulo3">
+                    <a href=""> </a> 
+                     <dotlottie-wc
+  src="https://lottie.host/1ac0f7f7-759c-449a-b3a3-8aceea255c47/2yLBrIXeLR.lottie"
+  
+  autoplay
+  loop
+></dotlottie-wc>
+                  
+                </div>
+                </div>
 
            
 
-        </div>
+            </div>
 
-        <div class="contenedor-secundario">
-            <img src="" alt="">
+            <div class="contenedor-secundario">
+                <img src="" alt="">
 
-        </div>
+            </div>
 
 
 
-    </main>
+        </main>
     
-    <footer>
-         <p> Telefono +57 322 4851035 </p>
-         <a href=""> Email: sarahernandezsotelo@gmial.com</a> 
-         <a href=""> Descargar CV </a>
-        <a href=""> Github</a> 
-        <p> Creador de productos y experiencias</p>
+        <footer>
+             <p> Telefono +57 322 4851035 </p>
+             <a href=""> Email: sarahernandezsotelo@gmial.com</a> 
+             <a href=""> Descargar CV </a>
+            <a href=""> Github</a> 
+            <p> Creadora de productos y experiencias</p>
         
-    </footer>
+        </footer>
 
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js" type="module"></script>
 
- 
+     
+
    
-    <script>
-
-    const btn = document.getElementById("menu-btn");
-    const menu = document.getElementById("nav-links");
-
-    btn.addEventListener("click", () => {
-        menu.classList.toggle("activar");
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+      lottie.loadAnimation({
+        container: document.getElementById("lottie-animation"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "animations/animacion.json"
+      });
     });
+
+
+        const btn = document.getElementById("menu-btn");
+        const menu = document.getElementById("nav-links");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("activar");
+        });
+
+    </script>
+
+
+
+    </body>
+    </html>
+            
 
 </script>
 
